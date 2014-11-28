@@ -49,6 +49,10 @@ class MergeTable {
      */
     public function fetchAll($query){
         //SQL语句分析、拆分
+        $parser = new \PHPSQL\Parser($query, true);
+        $parsed = $parser->parsed;
+
+        print_r($parsed);
 
         //获取查询结果
 

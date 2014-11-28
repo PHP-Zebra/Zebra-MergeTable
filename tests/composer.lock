@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3650c35bb4849ada9a6aa739caf93e71",
+    "packages": [
+        {
+            "name": "zebra/merge_table",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-Zebra/Zebra-MergeTable.git",
+                "reference": "2da0df11b935de4861346f3dc68e509c6408aac1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-Zebra/Zebra-MergeTable/zipball/2da0df11b935de4861346f3dc68e509c6408aac1",
+                "reference": "2da0df11b935de4861346f3dc68e509c6408aac1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zebra\\MergeTable": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jenner",
+                    "email": "hypxm@qq.com"
+                }
+            ],
+            "description": "database merge table",
+            "keywords": [
+                "merge table",
+                "mysql",
+                "sql"
+            ],
+            "time": "2014-11-24 14:48:37"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "zebra/merge_table": 20
+    },
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "name": "soundintheory/php-sql-parser",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soundintheory/php-sql-parser.git",
+            "reference": "dcb81216a13be124d21711b8fefb6e80db7af472"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soundintheory/php-sql-parser/zipball/dcb81216a13be124d21711b8fefb6e80db7af472",
+            "reference": "dcb81216a13be124d21711b8fefb6e80db7af472",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2013-08-09 21:16:50",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPSQL": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "André Rothe",
+                "email": "phosco@gmx.de",
+                "homepage": "https://www.phosco.info",
+                "role": "Committer"
+            },
+            {
+                "name": "Justin Swanhart",
+                "email": "greenlion@gmail.com",
+                "homepage": "http://code.google.com/u/greenlion@gmail.com/",
+                "role": "Owner"
+            },
+            {
+                "name": "Andy White",
+                "homepage": "https://github.com/soundintheory",
+                "role": "maintainer"
+            },
+            {
+                "name": "Dan Vande More",
+                "homepage": "https://github.com/fimbulvetr",
+                "role": "contributor"
+            }
+        ],
+        "description": "SQL parsing tools for PHP"
+    }
+]
