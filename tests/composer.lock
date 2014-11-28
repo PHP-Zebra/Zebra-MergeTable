@@ -7,21 +7,76 @@
     "hash": "3650c35bb4849ada9a6aa739caf93e71",
     "packages": [
         {
+            "name": "soundintheory/php-sql-parser",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundintheory/php-sql-parser.git",
+                "reference": "dcb81216a13be124d21711b8fefb6e80db7af472"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundintheory/php-sql-parser/zipball/dcb81216a13be124d21711b8fefb6e80db7af472",
+                "reference": "dcb81216a13be124d21711b8fefb6e80db7af472",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPSQL": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "André Rothe",
+                    "email": "phosco@gmx.de",
+                    "homepage": "https://www.phosco.info",
+                    "role": "Committer"
+                },
+                {
+                    "name": "Justin Swanhart",
+                    "email": "greenlion@gmail.com",
+                    "homepage": "http://code.google.com/u/greenlion@gmail.com/",
+                    "role": "Owner"
+                },
+                {
+                    "name": "Andy White",
+                    "homepage": "https://github.com/soundintheory",
+                    "role": "maintainer"
+                },
+                {
+                    "name": "Dan Vande More",
+                    "homepage": "https://github.com/fimbulvetr",
+                    "role": "contributor"
+                }
+            ],
+            "description": "SQL parsing tools for PHP",
+            "time": "2013-08-09 21:16:50"
+        },
+        {
             "name": "zebra/merge_table",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-Zebra/Zebra-MergeTable.git",
-                "reference": "2da0df11b935de4861346f3dc68e509c6408aac1"
+                "reference": "fcdd19f58d11ebd5bfc084e0e9c82f42d69eef75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-Zebra/Zebra-MergeTable/zipball/2da0df11b935de4861346f3dc68e509c6408aac1",
-                "reference": "2da0df11b935de4861346f3dc68e509c6408aac1",
+                "url": "https://api.github.com/repos/PHP-Zebra/Zebra-MergeTable/zipball/fcdd19f58d11ebd5bfc084e0e9c82f42d69eef75",
+                "reference": "fcdd19f58d11ebd5bfc084e0e9c82f42d69eef75",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "soundintheory/php-sql-parser": "1.0"
             },
             "type": "library",
             "autoload": {
@@ -35,8 +90,9 @@
             ],
             "authors": [
                 {
-                    "name": "Jenner",
-                    "email": "hypxm@qq.com"
+                    "name": "Jenner, xufeng",
+                    "email": "hypxm@qq.com",
+                    "homepage": "http://www.huyanping.cn"
                 }
             ],
             "description": "database merge table",
@@ -45,7 +101,7 @@
                 "mysql",
                 "sql"
             ],
-            "time": "2014-11-24 14:48:37"
+            "time": "2014-11-28 13:27:53"
         }
     ],
     "packages-dev": [],

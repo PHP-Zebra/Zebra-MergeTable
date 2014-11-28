@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Zebra\\MergeTable' => array($vendorDir . '/zebra/merge_table/src'),
+    'PHPSQL' => array($vendorDir . '/soundintheory/php-sql-parser/src'),
 );
