@@ -11,8 +11,6 @@ define('TEST_ROOT', dirname(__FILE__));
 
 require_once TEST_ROOT . DIRECTORY_SEPARATOR . 'vendor' .DIRECTORY_SEPARATOR . 'autoload.php';
 
-$query = 'SELECT count(*) FROM mysql';
-
+$query = 'SELECT count(*) as cnt, field, count(*) FROM test GROUP BY cnt ORDER BY column desc, test, DD ASC';
 $parser = new \PHPSQL\Parser($query, true);
-
 print_r($parser->parsed);
